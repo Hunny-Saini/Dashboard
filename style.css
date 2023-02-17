@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    height: 100vh;
+    /* gap: 20px; */
+    background-color: #FAFAFA;
+    ;
+}
+
+.left-container{
+    background-color: white;
+}
+
+/* .right-container{
+    background-color: tomato;
+} */
+
+.links{
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 13px;
+    margin-right: 15px;
+    margin-top: 34px;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    margin-left: 13px;
+    margin-top: 26px;
+}
+
+.links > a {
+    display: flex;
+    align-items: center;
+    /* border: 2px solid rebeccapurple; */
+    padding: 14px 14px;
+    border-radius: 8px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #9DA6BA;
+}
+
+.material-icons + span{
+    margin-left: 12px;
+    font-weight: 500;
+}
+
+.logo + h4 {
+    margin-left: 8px;
+}
+
+.links > a:hover{
+    background-color: #5B68FF;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+    margin-top: 24px;
+    margin-right: 20px;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.header h2{
+    margin-left: 20px;
+}
+
+.header1-container{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+}
+
+.header1-2{
+    display: flex;
+}
+
+.header1-2 a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.header1-2 a span{
+    position: absolute;
+    right: 2px;
+}
+
+.header1-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header1-3 img{
+    width: 38px;
+    height: 38px;
+    border-radius: 20px;
+}
+
+.header1-3 span{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.header1-4{
+    display: flex;
+    align-items: center;
+}
+
+.header1-4 span{
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.notifIcon{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    text-align: center;
+    background-color: #CDD3FF;
+    color: #6F767E;
+}
+
+.search-bar{
+    border-radius: 21px;
+    border: none;
+    height: 32px;
+    width: 200px;
+    padding-left: 10px;
+}
+
+.search-bar  + .material-icons{
+    color: white;
+    background-color: #5B68FF;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.cards-container{
+    /* background-color: white; */
+    /* width: 267px;
+    height: 192px; */
+    border-radius: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 30px;
+}
+
+.card{
+    padding: 16px 17px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    margin-left: 18px;
+    margin-top: 24px;
+    background-color: white;
+    border-radius: 15px;
+    width: 250px;
+    max-width: 267px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin-top: 11px;
+}
+
+.profile span{
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 6px;
+}
+
+.card-head h4{
+    font-size: 0.9em;
+    margin-top: 8px;
+}
+
+.profile img{
+    width: 23px;
+    height: 23px;
+    border-radius: 11.5px;
+}
+
+.card-mid{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+    /* margin-left: 16px; */
+}
+
+.card-mid div{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.card-foot{
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.smallIcon span{
+    font-size: 14px;
+    color: #5B68FF;
+}
+
+.small-text{
+    font-size: 12px !important;
+    margin-left: 6px !important;
+    color: #9DA6BA !important;
+}
+
+.small-text b{
+    color: black !important;
+}
+
+.time{
+    margin-left: 11px !important;
+}
+
+.tick{
+    color: #4DC591 !important;
+}
+
+.empty-bar{
+    width: 80%;
+    background-color: #DCFDEF;
+    height: 4px;
+    border-radius: 2px;
+}
+
+.filled-bar{
+    width: 40%;
+    height: 4px;
+    background-color: #4DC591;
+    border-radius: 2px;
+}
+
+.bar-text{
+    color: black;
+    font-size: 12px;
+    margin-left: 8px;
+}
